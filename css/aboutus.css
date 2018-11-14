@@ -1,0 +1,79 @@
+.about_main{
+    width:1000px;
+    min-height:360px;
+    height:auto;
+    margin:0 auto;
+}
+.about_main .slide{
+    height:360px;
+    width:220px;
+    float:left;
+    border:1px solid #ccc;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.about_main .slide .cat_title{
+    height:40px;
+    line-height:40px;
+    padding-left:20px;
+    font-size:14px;
+    color:#fff;
+    font-weight:bold;
+    background-color:#66973c;
+}
+.about_main .slide .qq{
+    height:85px;
+    width:190px;
+    border-bottom:1px dotted #d6d6d6;
+    margin:0 auto;
+    margin-top:10px;
+}
+.about_main .slide .qq div{
+    height:42px;
+    line-height:42px;
+    margin:0 auto;
+}
+
+.about_main .slide .service,.about_main .slide .weixin,.about_main .slide .email{
+    height:58px;
+    line-height:24px;
+    width:160px;
+    border-bottom:1px dotted #d6d6d6;
+    margin:0 auto;
+    margin-top:10px;
+    padding-left:40px;
+
+}
+.about_main .slide .service{
+    background:url(../images/clock.jpg) 8px center no-repeat;
+}
+.about_main .slide .weixin{
+    background:url(../images/weixin.jpg) 8px center no-repeat;
+}
+.about_main .slide .email{
+    background:url(../images/email.jpg) 8px center no-repeat;
+}
+
+.about_main .right{
+    min-height:360px;
+    height:auto;
+    width:760px;
+    float:right;
+}
+.about_main .right .submenu{
+    height:30px;
+    line-height:30px;
+    width:750px;
+    border-bottom:1px solid #666;
+    padding-left:20px;
+}
+.about_main .right .submenu a{
+    font_size:14px;
+    color:blue;
+}
+.about_main .right .content{
+    width:750px;
+    padding: 0 40px 0 20px;
+    text-indent:2em;
+    word-wrap: break-word;
+}

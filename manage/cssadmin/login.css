@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: #0e85c2;
+    font-size:18px;
+}
+ul,li{
+    list-style:none;
+}
+#mian{
+    width:960px;
+    margin:0 auto;
+}
+#wrapper{
+    width:694px;
+    height:266px;
+    top:188px;
+    margin:0 auto;
+    position: relative;
+    background-color:red;
+}
+#sys_name{
+    position:absolute;
+    top:67px;
+    left:95px;
+    height:150px;
+    background: url(../../images/pn_img13.jpg) center top no-repeat;
+}
+#cont{
+    margin:0;
+    padding:0;
+    position: absolute;
+    top:95px;
+    left:358px;
+}
+#cont li{
+    height:35px;
+    line-height:35px;
+    text-align:left;
+}
+#cont li label .lb{
+    float:left;
+    width:50px;
+    padding:0 5px;
+    line-height:35px;
+    text-align:right;
+}
+#cont li input .ip{
+    width:132px;
+    border:#41a1be 1px solid;
+    color:#898989;
+    height:20px;
+    line-height:20px;
+    padding:2px;
+}

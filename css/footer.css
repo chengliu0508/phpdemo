@@ -1,0 +1,30 @@
+.footer{
+    height:120px;
+    background:#66973c;
+    clear:both;
+}
+.footer .center_box{
+    width:1000px;
+    height:120px;
+    margin:0 auto;
+}
+.footer .center_box .text{
+    hright:105px;
+    color:#fff;
+    float:left;
+    line-height:20px;
+    font-size:13px;
+    padding-top:13px;
+    padding-left:120px;
+}
+.footer .center_box .text a{
+    color:#fff;
+    font-size:13px;
+}
+.footer .center_box .ewm{
+    height:9px;
+    float:right;
+    text-align:center;
+    padding-right:120px;
+    padding-top:25px;
+}

@@ -1,0 +1,49 @@
+.artcle-content{
+    width:98%;
+    margin:5px auto;
+}
+.artcle-content .row{
+    height:40px;
+    line-height:40px;
+    font-size:13px;
+    border-bottom:1px dotted #ccc;
+}
+.artcle-content .row .short{
+    height:40px;
+    width:60px;
+    float:left;
+    font-size:13px;
+    margin-left:5px;
+}
+.artcle-content .row .long{
+    height:40px;
+    width:150px;
+    float:left;
+    font-size:13px;
+    margin-left:5px;    
+}
+.page{
+    height:40px;
+    margin:0 auto;
+    float:right;
+}
+.page a{
+    display:block;
+    height:20px;
+    width:30px;
+    border:1px solid #ccc;
+    float:left;
+    margin-left:5px;
+    text-align:center;
+    line-height:20px;
+    font-size:12px;
+    margin-top:7px;
+}
+
+.article-detail div{
+    padding:5px 0;
+}
+.article-detail span{
+    color:red;
+    font-weight:600;
+}

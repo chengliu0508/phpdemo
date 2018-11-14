@@ -1,0 +1,168 @@
+.container{
+    width:1000px;
+    height:310px;
+    margin:0 auto;
+    clear:both;
+}
+/* news */
+.container .news{
+    width:300px;
+    height:310px;
+    float:left;
+}
+.container .news .n_top{
+    height:35px;
+    border-bottom:1px solid #999;
+}
+.container .news .n_top .cat_title{
+    float:left;
+    height:35px;
+    line-height:35px;
+    font-size:15px;
+}
+.container .news .n_top .more a{
+    width:50px;
+    text-align:center;
+    background:url(../images/more.png)center center no-repeat;
+    height:35px;
+    line-height:35px;
+    float:right;
+    font-size:12px;
+    color:#fff;
+}
+
+.container .news .n_center{
+    height:100px;
+    padding-top:5px;
+}
+.container .news .n_center img{
+    float:left;
+    margin-right:5px;
+    margin-top:5px;
+}
+.container .news .n_center div{
+    font-size:12px;
+    line-height:20px;
+}
+
+.container .news .n_bottom{
+    height:155px;
+    margin-top:10px;
+}
+.container .news .n_bottom a{
+    display:block;
+    height:28px;
+    line-height:28px;
+    font-size:13px;
+    color:#333;
+    border-bottom:1px dotted #cccccc;
+}
+/* about */
+.container .about{
+    width:380px;
+    height:310px;
+    float:left;
+    margin-left:10px;
+}
+.container .about .a_top{
+    height:35px;
+    border-bottom:1px solid #999;
+}
+.container .about .a_top .cat_title{
+    float:left;
+    height:35px;
+    line-height:35px;
+    font-size:15px;
+}
+.container .about .a_center{
+    margin:5px auto;
+}
+.container .about .a_bottom{
+    font-size:13px;
+    line-height:20px;
+    text-indent:2em;
+    margin-top:5px;
+}
+/* produce */
+.container .produce{
+    width:300px;
+    height:310px;
+    float:right;
+}
+.container .produce .p_top{
+    height:35px;
+    border-bottom:1px solid #999;
+}
+.container .produce .p_top .cat_title{
+    float:left;
+    height:35px;
+    line-height:35px;
+    font-size:15px;
+}
+.container .produce .p_top .more a{
+    width:50px;
+    text-align:center;
+    background: url(../images/more.png)center center no-repeat;
+    height:35px;
+    line-height:35px;
+    float:right;
+    font-size:12px;
+    color:#fff;
+}
+
+.container .produce .p_bottom{
+    height:270px;
+    margin-top:5px;
+}
+
+.slideBox{
+    width:270px;
+    height:270px;
+    overflow:hidden;
+    position: relative;
+    margin-left:15px;
+}
+.slideBox .hd{
+    height:15px;
+    overflow:hidden;
+    position: absolute;
+    right:5px;
+    bottom:5px;
+    z-index:1;
+}
+.slideBox .hd ul{
+    overflow:hidden;
+    zoom:1;
+    float:left;
+}
+.slideBox .hd ul li{
+    float:left;
+    margin-right:2px;
+    width:15px;
+    height:15px;
+    line-height:14px;
+    text-align:center;
+    background: #f00;
+    color:#fff;
+
+}
+.slideBox .hd ul li.on{
+    background:#f00;
+    color:#fff;
+}
+.slideBox .bd{
+    position: relative;
+    height:270px;
+    display:block;
+    border:0px;
+}
+.slideBox .bd li{
+    zoom:1;
+    vertical-align: middle;
+}
+.slideBox .bd img{
+    width:300px;
+    height:270px;;
+    display:block;
+    border:0px;
+}
