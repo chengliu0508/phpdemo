@@ -1,0 +1,20 @@
+.produce-content{
+    height:500px;
+    width:750px;
+}
+.produce-content .pro-box{
+    height:200px;
+    width:200px;
+    float:left;
+    border:1px solid #ccc;
+    margin-left:40px;
+    margin-top:13px;
+}
+
+.produce-detail{
+
+}
+.produce-detail .title{
+    padding:30px;
+    color:#9C27B0;
+}

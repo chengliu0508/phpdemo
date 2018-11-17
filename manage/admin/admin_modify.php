@@ -17,7 +17,7 @@ $row=mysql_fetch_array($result);
         </style>
     </head>
     <body>
-        <form name='form_add' id='form_add' action='admin_modify_pass.php' method='post'>
+        <form name='form_add' id='form_add' action='admin_modify_pass.php?id=<?=$row['id']?>' method='post'>
             <table width='100%' border='1' cellspacing='0' cellpadding='0'>
                 <tr class='tt' colspan='16'><td>admin modify</td></tr>
                 <tr>

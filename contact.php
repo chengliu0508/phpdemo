@@ -6,9 +6,7 @@
 			<a href='index.php'>home</a>-><a href='message.php'>news</a>
 		</div>
 		<div class='message-content'>
-            <form name='form1' id='form1' action="?act=add" method='post'>
-                <ul>message us</ul>
-            </form>
+            <p>contact us</p>
 		</div>
 	</div>
 </div>
